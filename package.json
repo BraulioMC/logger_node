@@ -1,0 +1,24 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Simple logger",
+  "main": "logger.js",
+  "scripts": {
+    "test": "node logger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraulioMC/logger_node.git"
+  },
+  "author": "Braulio Mosquera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BraulioMC/logger_node/issues"
+  },
+  "homepage": "https://github.com/BraulioMC/logger_node#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "winston": "^3.3.3",
+    "winston-timestamp-colorize": "^1.1.0"
+  }
+}
