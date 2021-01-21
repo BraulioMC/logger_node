@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === 'dev')
         format.splat(),
         format.colorize(),
         format.align(),
-        format.timestamp(),
+        format.timestamp( {format: 'YYYY-MM-DD HH:mm:ss'} ),
         winstonTimestampColorize({ color: 'blue' }),
         format.printf(info => `${info.timestamp} [${info.level}]: ${info.message}`)
       )
